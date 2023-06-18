@@ -8,4 +8,4 @@ npm run dev
 yarn dev
 ```
 
-<p>Created by <a href="anupamac.me">Anupam</a></p>
+<p>Created by <a href="https://anupamac.me">Anupam</a></p>
