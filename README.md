@@ -8,4 +8,4 @@ npm run dev
 yarn dev
 ```
 
-### Created by anupamac.me
+<p>Created by <a href="anupamac.me">Anupam</a></p>
