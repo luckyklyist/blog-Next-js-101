@@ -1,13 +1,17 @@
 'use-client'
+import Link from "next/link"
 
 const NavBar = () => {
     return (
         <div>
             <div className="navbar bg-base-100">
                 <div className="flex-1 ">
-                    <a className="btn btn-ghost normal-case text-xl">next_learn</a>
+                    <Link href="/" className="btn btn-ghost normal-case text-xl">Next_learn</Link>
                 </div>
                 <div className="flex-none gap-2">
+                    <div className="">
+                        <Link href="/blogs" className="btn btn-ghost normal-case text-xl">Blogs</Link>
+                    </div>
                     <div className="form-control">
                         <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
                     </div>
